@@ -1,10 +1,23 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+  
+    background-image: url("https://img.freepik.com/free-vector/cloud-sticker-clipart-vector-set-flat-design_53876-140219.jpg?w=1060&t=st=1674768774~exp=1674769374~hmac=3d518e838253b67fefc28818c1ebffc2214e17bc3b7fab103082a2ecedc94f6f");
+    
   }
   
   ol, ul {
     padding-left: 30px;
+    font-size: 30px;
+  }
+
+  .header-banner {
+    font-size:30px;
+    text-align: center;    
+  }
+
+  .side-info {
+    font-size:70px;
+
   }
   
   .board-row:after {
@@ -19,17 +32,18 @@ body {
   
   .square {
     background: #fff;
-    border: 1px solid #999;
+    border: 6px solid rgb(0, 0, 0);
     float: left;
-    font-size: 24px;
+    font-size: 60px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 150px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 150px;
+    
   }
   
   .square:focus {
@@ -37,15 +51,19 @@ body {
   }
   
   .kbd-navigation .square:focus {
-    background: #ddd;
+    background: rgb(221, 221, 221);
   }
   
   .game {
     display: flex;
     flex-direction: row;
+    margin-left: 200px;
+    
   }
   
   .game-info {
     margin-left: 20px;
+    
   }
+  
   
